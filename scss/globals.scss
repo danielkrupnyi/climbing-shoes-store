@@ -1,0 +1,51 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.z-max {
+  z-index: 999;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px black;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card-img-overlay:hover {
+  transition: 0.8s;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quantity {
+  width: 48px;
+  display: inline;
+  margin-bottom: 0;
+  padding: 8px 5px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.vh-65 {
+  height: 65vh;
+}
+
+@media (max-width: 576px) {
+  .form {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .form {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form {
+    width: 30%;
+  }
+}
