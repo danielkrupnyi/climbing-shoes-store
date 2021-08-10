@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    BASE_URL: "http://localhost:3000",
+    BASE_URL: "https://climbing-shoes-store.vercel.app",
     MONGODB_URL:
       "mongodb+srv://danielkrupnyy:WBO3289240wbo@cluster0.jjiot.mongodb.net/climbing_store?retryWrites=true&w=majority",
     ACCESS_TOKEN:
